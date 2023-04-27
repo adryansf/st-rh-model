@@ -52,7 +52,7 @@ age = st.sidebar.slider('Age', min_value=18, max_value=100)
 gender = st.sidebar.selectbox('Gender', ['Female', 'Male'])
 
 # DistanceFromHome
-distance_from_home = st.sidebar.number_input('Distance From Home', step=1, min_value=1)
+distance_from_home = st.sidebar.number_input('Distance From Home', step=1, min_value=0)
 
 # Education
 education = st.sidebar.selectbox('Education', ["Below College","College","Bachelor","Master","Doctor"])
