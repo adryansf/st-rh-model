@@ -13,11 +13,11 @@ scaler = pickle.load(open("scaler.pickle", 'rb'))
 
 # Transformações
 education_transform = {
-  "Below College": 0,
-  "College": 1,
-  "Bachelor": 2,
-  "Master": 3,
-  "Doctor": 4
+  "Below College": 1,
+  "College": 2,
+  "Bachelor": 3,
+  "Master": 4,
+  "Doctor": 5
 }
 
 levels = {
